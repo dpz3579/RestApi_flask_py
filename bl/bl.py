@@ -1,9 +1,13 @@
 from flask import jsonify
 from flask_restful import Resource
 
+class init(Resource):
+  def get(self):
+    return "Init home page!", 200
+
 class welcome(Resource):
   def get(self):
-    return "Hello World!"
+    return "Hello World!", 200
 
 class hello(Resource):
   def get(self):
