@@ -10,6 +10,7 @@ apinames = [
   { 'nm': 'person', 'func': hello },
   { 'nm': 'numbers', 'func': print_list },
   { 'nm': 'teapot', 'func': tea },
+  { 'nm': 'test', 'func': test },
 ]
 
 class APIClass(object):
